@@ -5,19 +5,19 @@ esphome:
 
   on_boot:
     # Toggle blink mode 7 times to get to the desired mode
-    - delay: 1000ms
-    - switch.turn_on: mode
     - delay: 500ms
     - switch.turn_on: mode
-    - delay: 500ms
+    - delay: 200ms
     - switch.turn_on: mode
-    - delay: 500ms
+    - delay: 200ms
     - switch.turn_on: mode
-    - delay: 500ms
+    - delay: 200ms
     - switch.turn_on: mode
-    - delay: 500ms
+    - delay: 200ms
     - switch.turn_on: mode
-    - delay: 500ms
+    - delay: 200ms
+    - switch.turn_on: mode
+    - delay: 200ms
     - switch.turn_on: mode
 
 wifi:
