@@ -26,7 +26,7 @@ wifi:
   # Enable fallback access point when wifi is unavailable
   ap:
     ssid: "X-mas lights fallback AP"
-    password: "blinky"
+    password: "blinkies"
 
 captive_portal:
 
@@ -53,6 +53,6 @@ switch:
     name: "X-mas lights"
     # Emulate push button by auto switching off
     on_turn_on:
-    - delay: 200ms
+    - delay: 150ms
     - switch.turn_off: mode
     
